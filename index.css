@@ -1,0 +1,128 @@
+
+body {
+    height:100vh;
+    background-image: url('https://images.unsplash.com/photo-1508614823792-1f56af914148');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+     padding: 0;
+     font-family: 'Roboto';
+     font-size: 12px;
+}
+
+#calculator {
+	background-color: #2b2b2b;
+	width: 15vw;
+	height: 50vh;
+	border: 3px black solid;
+	padding: 1vw;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-khtml-border-radius: 10px;
+    border-radius: 0.5vw;
+}
+
+#calculator a {
+	display: block;
+    float: left;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    background-color: rgb(75, 74, 74);
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -khtml-border-radius: 10px;
+    border-radius: 50px;
+    color: whitesmoke;
+}
+
+#numbers, #operators {
+	margin: auto;	
+}
+
+#operators {
+    margin-top: 3vh;
+   
+    
+}
+#operators a {
+    width: 2.5vw;
+    height: 5vh;
+    font-size: 1vw;
+    padding: 0.5vw;
+    margin: 1vh 0.3vw;
+}
+
+#numbers a {
+	width: 2.5vw;
+    height: 5vh;
+    font-size: 1vw;
+    padding: 0.5vw;
+    margin: 0.3vw;
+}
+
+
+#total {
+    height: 10vh;
+    width: 13vw;
+    margin: auto;
+    background-color: rgb(133, 128, 128);
+    color: white;
+    text-align: right;
+    font-size: 2vw;
+    padding: 3px 7px;
+    border-radius: 0.5vw;
+}
+
+#history {
+	height: 2vh;
+    width: 80%;
+    background-color: rgb(133, 128, 128);
+    color: white;
+    text-align: right;
+    font-size: 0.8vw;
+    padding: 0.1vh;
+    margin-top: -2.75vh;
+    margin-left: auto;
+}
+
+#side {
+	width:  2.5vw;
+	float: right;
+}
+
+#side a {
+	width: 2.5vw;
+    height: 4vh;
+    float: right;
+    font-size: 32px;
+    padding: 10px;
+    margin: 5px;
+}
+
+a#equals {
+	padding-top: 5vh;
+    height: 12vh;
+}
+
+a#decimal {
+	padding-top: 5vh;
+    height: 12vh;
+}
+/* a {
+    width: 2.5vw;
+    height: 5vh;
+    font-size: 1vw;
+    
+}
+ */
+#operators .light {
+    background-color: #757070;
+}
+#operators .colored {
+    background-color: #c5901e;
+}
+#side .colored {
+    background-color: #c5901e;
+}
